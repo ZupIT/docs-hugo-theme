@@ -18,6 +18,14 @@ limitations under the License.
 
     'use strict';
 
+    $(document).ready(() => {
+      const itemsToHide = [$('.td-sidebar-nav .td-sidebar-link:contains("Documentation")'), $('.td-sidebar-nav .td-sidebar-link:contains("Documentação")')];
+
+      itemsToHide.forEach((item) => {
+        item.hide();
+      });
+    });
+
     $(function() {
         $('[data-toggle="tooltip"]').tooltip();
         $('[data-toggle="popover"]').popover();
