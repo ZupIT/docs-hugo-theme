@@ -103,7 +103,9 @@ pre {
   font-weight: unset;
 }
 
-.section-index h5 {
+.section-index h2 {
+  font-size: 1.15rem;
+  
   a {
     color: #ef4123;
     text-decoration: underline;
@@ -115,4 +117,8 @@ pre {
     font-style: italic;
     text-decoration: underline;
   }
+}
+
+.dr-last-modified-text {
+  color: #3e3939;
 }
