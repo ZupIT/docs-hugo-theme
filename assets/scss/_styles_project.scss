@@ -122,3 +122,9 @@ pre {
 .dr-last-modified-text {
   color: #3e3939;
 }
+
+.td-content pre > code {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4em;
+}
